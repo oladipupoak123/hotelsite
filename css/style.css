@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*HOME PAGE*/
+/*header*/
+.flex-container{
+    display: flex;
+    background-color: rgb(80, 75, 75);
+    height: 50px;
+    align-items: center;   
+}
+.flex-container:hover{
+    background-color: rgb(194, 156, 113);
+
+}
+
+.hbt{
+   margin-right: 600px;
+   margin-left: 250px; 
+   color: white;
+   font-family: 'Merriweather', serif;
+}
+
+.current{
+    margin: 10px;
+    text-decoration: none;
+    border-width: 5px;
+    border-top: 50px;
+    color: white;
+    font-family: 'Merriweather', serif;
+  
+}
+
+.current:hover{
+background-color: rgb(80, 75, 75);
+color:rgb(194, 156, 113);
+}
+
+/* Body (section 1) body*/
+
+.top-container{
+    height: 500px;
+    background: url(/img/showcase.jpg) no-repeat center/ cover ;
+}
+
+.enjoy{
+    color: rgb(194, 156, 113);
+}
+.first-h1{
+    color: white;
+}
+
+.first-p{
+    margin: 20px;
+color: silver;
+}
+
+.first-div{
+    padding-top: 200px;
+    text-align: center;
+    
+}
+
+.btn{
+    font-size: 12px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+.btn:hover{
+    background-color: gray;
+
+}
+
+/* Body (section 2)*/
+.middle-container{
+    display: flex;
+}
+
+.second-div{
+    width: 800px;
+    height: 350px;
+    background-color: rgb(44, 44, 44);
+    text-align: center;
+}
+
+.first-img{
+    width: 800px;
+    height: 350px;
+}
+
+.first-h2{
+    margin: 50px;
+    color: white;
+}
+
+.sec-span{
+    color:rgb(194, 156, 113);
+}
+
+.sec-p{
+    margin: 50px;
+    color: silver;
+}
+
+/* Body (section 3)*/
+.bottom-container{
+    display: flex;
+}
+
+.fitness-icon{
+    width: 50px;
+    position: relative;
+}
+
+.hotel-icon{
+    width: 50px;
+    position: relative;
+}
+
+.free-icon{
+    width: 50px;
+    position: relative;
+}
+
+.bottom-div1{
+    padding-top: 30px;
+    height: 200px;
+    background-color:whitesmoke ;
+    text-align: center;
+}
+.bottom-div2{
+    padding-top: 30px;
+    height: 200px;
+    background-color:rgb(194, 156, 113);
+    text-align: center;
+}
+
+.bottom-div3{
+    padding-top: 30px;
+    height: 200px;
+    background-color:whitesmoke ;
+    text-align: center;
+}
+/*footer*/
+footer{
+    background-color:rgb(80, 75, 75); 
+    color: silver;
+    height: 50px;
+    text-align: center;
+}
+
+.footer-p{
+    padding-top: 20px;
+}
+
+/*About*/
+/*Top Container*/
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.about-top-container{
+    padding-top: 20px;
+    padding-left: 200px;
+    background-color: rgb(245, 238, 238);
+
+}
+
+.about-top-div{
+    display: flex;
+    height: 200px;
+    background-color: rgb(245, 238, 238);
+    padding-bottom: 20px;
+}
+
+.about-img1{
+    width: 250px;
+    border-radius: 100px;
+    margin-left: 60px;
+}
+.about-span{
+    color: rgb(194, 156, 113);
+}
+
+.about-p1{
+    padding-top: 50px;
+    font-size: 14px;
+}
+/*Bottom Container*/
+.about-bottom-container{
+    background: url(/img/test-bg.jpg) no-repeat center / cover;
+    padding-bottom: 50px;
+    
+}
+
+.about-bottom-h1{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    margin-left: 600px;
+    color: white;
+}
+
+.about-bottom-container1{
+    background-color: rgb(194, 156, 113);
+    display: flex;
+    width: 800px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.about-img2{
+    width: 100px;
+    border-radius: 60px;
+    margin-left: 10px;
+}
+
+
+.about-p2{
+    margin-left: 20px;
+    padding-top: 25px;
+}
+
+.about-bottom-container2{
+    background-color: rgb(194, 156, 113);
+    display: flex;
+    width: 800px;
+    border-radius: 5px;
+    margin-left: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.about-img3{
+    width: 100px;
+    border-radius: 60px;
+    margin-left: 10px;
+}
+
+.about-p3{
+    margin-left: 20px;
+    padding-top: 25px;
+}
+
+form{
+    padding-left: 50px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    
+}
+
+.contact-bottom-container{
+    display: flex;
+    padding-top: 50px;
+    background-color: rgb(32, 32, 32)
+}
+
+.contact-bottom-container1{
+    padding-left: 250px;
+}
+
+.contact-bottom-container2{
+    padding-left: 200px;
+}
+
+.contact-bottom-container3{
+    padding-left: 200px;
+}
+
+.contact-img1{
+    width: 50px;
+    color: white;
+}
